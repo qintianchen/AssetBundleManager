@@ -3,9 +3,9 @@
 Manager asset loading and unloading in AssetDataBase/AssetBundle mode.
 
 There are some hidden rules in this manager:
-1. contents' names must be lowercase. The reason to do so is that some version controlling software is not case-sensitive.
-2. Only contents lied in specified directories will be packed as assetbundle and be loaded
-3. One directory path coresponding to an assetbundle name and an assetbundle so that we don't have to take too much energy to think about how to bundle the contents —— folder path tells you all. 
+1. contents' names must be lowercase. The reason for that is that some version controlling softwares are not case-sensitive.
+2. Only contents lied in specified directories will be packed as assetbundle and be loaded as well.
+3. One directory path coresponding to one assetbundle name and one assetbundle, so that we don't have to take too much energy to think about how to bundle the contents —— folder path tells you all. 
 4. Please make sure that each file has a unique name in global so that the manager dont have to consider the extension name of the asset.
 
 ## Usage:
